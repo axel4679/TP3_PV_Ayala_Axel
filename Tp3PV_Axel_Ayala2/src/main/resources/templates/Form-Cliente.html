@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Formulario</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<header>
+		<h1>Implementacion de Github</h1>
+		<nav>
+			<ul>
+				<li><a href="index#seccion1">Creación del Repositorio en GitHub</a></li>
+				<li><a href="index#seccion2">Clonar el Repositorio en Spring
+						Tools Suite</a></li>
+				<li><a href="index#seccion3">Importar el Proyecto a Spring Tools
+						Suite</a></li>
+				<li><a href="form-cliente ">Formulario</a></li>
+			    
+			</ul>
+		</nav>
+	</header>
+
+
+<body>
+	<h1>Formulario de Datos:</h1>
+	
+		<form id="registroClienteForm" action="#" method="post">
+    <label for="dni">DNI:</label>
+    <input type="number" id="dni" name="dni" required><br>
+
+    <label for="nombres">Nombres:</label>
+    <input type="text" id="nombres" name="nombres" required><br>
+
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" name="apellidos" required><br>
+
+    <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+    <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
+
+    <label>Género:</label><br>
+    <input type="radio" id="femenino" name="genero" value="Femenino" required>
+    <label for="femenino">Femenino</label><br>
+    <input type="radio" id="masculino" name="genero" value="Masculino">
+    <label for="masculino">Masculino</label><br>
+    <input type="radio" id="otro" name="genero" value="Otro">
+    <label for="otro">Otro</label><br>
+
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required><br>
+
+    <label for="domicilio">Domicilio:</label>
+    <input type="text" id="domicilio" name="domicilio" required><br>
+
+    <label for="provincia">Provincia:</label>
+    <select id="provincia" name="provincia" required>
+        <option value="" disabled selected>Selecciona una provincia</option>
+        <option value="Jujuy">Jujuy</option>
+		<option value="Salta">Salta</option>
+		<option value="Buenos Aires">Buenos Aires</option>
+		<option value="Córdoba">Córdoba</option>
+		<option value="Mendoza">Mendoza</option>
+		<option value="Santa Fe">Santa Fe</option>
+		<option value="Tucumán">Tucumán</option>
+
+        <!-- Agrega más opciones según sea necesario -->
+    </select><br>
+
+    <label for="telefono">Número de teléfono celular:</label>
+    <input type="tel" id="telefono" name="telefono" required><br>
+
+    <label>Categorías de interés:</label><br>
+    <input type="checkbox" id="intereses" name="intereses" value="intereses">
+    <label for="intereses">Arte</label><br>
+    <input type="checkbox" id="intereses" name="intereses" value="intereses">
+    <label for="intereses">Musica</label><br>
+    <input type="checkbox" id="intereses" name="intereses" value="intereses">
+    <label for="intereses">Deportes</label><br>
+    <input type="checkbox" id="intereses" name="intereses" value="intereses">
+    <label for="intereses">Cocina</label><br>
+   
+    
+
+    <label for="sugerencias">Sugerencias para la empresa:</label><br>
+    <textarea id="sugerencias" name="sugerencias" rows="4" cols="50"></textarea><br>
+
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password"  required><br>
+
+    <label for="confirmPassword">Confirmar contraseña:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword"  required><br>
+
+    <input type="checkbox" id="terminos" name="terminos" required>
+    <label for="terminos">Acepto los términos y condiciones</label><br>
+
+    <input type="checkbox" id="recibirInformacion" name="recibirInformacion">
+    <label for="recibirInformacion">Acepto recibir información relativa a la empresa</label><br>
+
+    <button type="submit">Registrar</button>
+</form>
+		
+
+<footer>
+			<p>Contacto: axelcapofg@gmail.com</p>
+			<nav>
+				<ul>
+					<li><p>Mi instagram:</p></li>
+
+					<li><a href="https://www.instagram.com/axelayalajara?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="target="_blank" >@0AxelAyalaJara</a></li>
+				</ul>
+			</nav>
+		</footer>
+</body>
+</html>
